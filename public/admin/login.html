@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+</head>
+<body>
+<table style="position:absolute; top:35%; left:35%" >
+    <tr><td align="left">
+        <form action="/login/admin_login" method="get" name="adminLoginForm" onsubmit="return false">
+            <fieldset>
+                <legend>관리자 로그인</legend>
+                <div><span style="margin-right:80px;">Id</span><input id="id" name="id" size="20" type="text" value="" /></div>
+                <div style="margin-top:10px"><span style="margin-right:33px;">Password</span><input id="password" name="password" size="20" type="password" value="" /></div>
+                <div style="position: relative; margin-top:10px; left: 200px"><input name="commit" onclick="this.disabled=true;this.value='Please wait...';this.form.submit();" type="submit" value="Login" /></div>
+            </fieldset>
+        </form>
+    </td></tr>
+</table>
+</body>
+</html>

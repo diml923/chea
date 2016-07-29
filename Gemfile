@@ -20,6 +20,7 @@ gem 'capistrano-unicorn-nginx', group: :development
 gem 'capistrano-rails-console'
 gem 'capistrano-rails-collection'
 gem 'capistrano-rails-tail-log'
+gem 'rails_admin'
 
 group :production do
   gem 'rb-readline'

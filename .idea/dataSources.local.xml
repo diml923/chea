@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails rcafe: development" uuid="a7da89ef-d23e-46bc-b983-8140f9dbe414">
+      <auth-required>false</auth-required>
+      <first-sync>true</first-sync>
+    </data-source>
+    <data-source name="Rails rcafe: production" uuid="4d037aaa-f731-4300-97b9-bee00f1eb7da">
+      <user-name>deployer</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df88dff8dfe9dfebdfecdfefdff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf88dff7df8adf8fdf94</user-password>
+    </data-source>
+  </component>
+</project>

@@ -1,14 +1,41 @@
-Rails.application.routes.draw do
-  root 'welcome#index'
 
-  resources :posts do
-    resources :comments, only: [:create, :destroy]
-  end
 
-  resources :bulletins do
-    resources :posts
-  end
+  Rails.application.routes.draw do
+    mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
 
+
+
+  get 'news/seminar'
+  get 'news/article'
+  get 'news/other'
+
+
+  get 'research/aim'
+  get 'research/group1'
+  get 'research/group2'
+  get 'research/highlight'
+  get 'research/publication'
+
+  get 'people/index'
+
+  get 'chea/contact'
+
+  get 'chea/introduction'
+
+  get 'header/people'
+  get 'header/collaboration'
+  get 'header/resources'
+
+
+    root 'welcome#index'
+
+    resources :posts do
+      resources :comments, only: [:create, :destroy]
+    end
+
+    resources :bulletins do
+      resources :posts
+    end
   # get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
