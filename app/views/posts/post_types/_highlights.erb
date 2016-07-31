@@ -1,0 +1,18 @@
+<h2><%= bulletin_name params[:bulletin_id] %> <small></h2>
+
+<br>
+
+
+<div class ="Row">
+  <% @posts.each do | post | %>
+         <div class="Column"><%= link_to(image_tag(post.picture_url(:thumb)), post.string ) if post.picture? %></div>
+         <div class="txt"> <%= link_to(post.title, post.string) %></div>
+          <div class="txt2">  <%= post.content %></div>
+
+
+  <% end %>
+
+</div>
+
+
+<br>

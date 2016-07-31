@@ -22,6 +22,7 @@ gem 'capistrano-rails-collection'
 gem 'capistrano-rails-tail-log'
 gem 'rails_admin'
 
+
 group :production do
   gem 'rb-readline'
 end
